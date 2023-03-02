@@ -11,16 +11,78 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/bg_gradient_rounded"
-            android:padding="@dimen/_20sdp">
+            android:orientation="vertical"
+            android:padding="@dimen/_15sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="@dimen/_250sdp"
                 android:background="@drawable/bg_gradient_rounded"
-                android:padding="@dimen/_20sdp">
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_200sdp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:src="@drawable/ic_landing" />
 
             </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="Discover your client Interview here"
+                android:textColor="#505050"
+                android:textSize="@dimen/_16ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="Based on project or client you can prepare yourself for interviews. Also you can share your Faced Interview Questions"
+                android:textColor="#707070"
+                android:textSize="@dimen/_14ssp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/_15sdp">
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Login"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/medium"
+                    android:background="@drawable/bg_white_curve" />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:text="Register"
+                    android:fontFamily="@font/medium"
+                    android:textAllCaps="false"
+                    android:background="@drawable/bg_grey_curve" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:text="continue as Guest"
+                android:fontFamily="@font/medium"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:elevation="2dp"
+                android:background="@drawable/bg_light_red_btn" />
 
         </LinearLayout>
 
